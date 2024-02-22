@@ -1,0 +1,22 @@
+body {
+  background-color: #456;
+  color: #ddd;
+  font-family: Times New Roman, Helvetica, sans-serif;
+  margin: 10% 10%;
+}
+
+
+.exp-header {
+  border-bottom: 2px  solid #ddd;
+  text-align: Center
+}
+
+.schooling-header {
+  border-bottom: 2px  solid #ddd;
+   text-align: Center
+}
+
+.qualifying-header {
+  border-bottom: 2px  solid #ddd;
+   text-align: Center
+}
