@@ -1,22 +1,12 @@
-body {
-  background-color: #456;
-  color: #ddd;
-  font-family: Times New Roman, Helvetica, sans-serif;
-  margin: 10% 10%;
+h2 {
+    color: darkblue;
+    font-style: italic;
 }
 
-
-.exp-header {
-  border-bottom: 2px  solid #ddd;
-  text-align: Center
+ul {
+    list-style-type: circle;
 }
 
-.schooling-header {
-  border-bottom: 2px  solid #ddd;
-   text-align: Center
-}
-
-.qualifying-header {
-  border-bottom: 2px  solid #ddd;
-   text-align: Center
+a {
+    color: black;
 }

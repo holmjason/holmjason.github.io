@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 style="color: royalblue;"> HTML Form</h1>
+
+    <h2  style="color: royalblue;"> Form Tag and attributes</h2>
+    <form action="/submit" method="post">
+        <label form="unsername">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <label for="subscribe">Subscribe to Newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <label for="coments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="enter your comments"></textarea>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Subject</button>
+    </form>    
+
+    <h2> New Input Types in HTML5</h2>
+    <form>
+      <label for="user-email">Email:</label>
+      <input type="email" id="user-email" placeholder="Enter your email" required>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="10" stop="1">
+
+      <label for="birthdate">Birthdate:</label>
+      <input type="date" id="birthdate" name="birthdate">
+
+      <button type="reset">reset</button>
+      <button type="submit">Submit</button>
+     </form>
+
+     <h2 style="color: royalblue;"> The Versatile type of Attribute</h2>
+     <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Enter your full name">
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="19" step="1">
+
+        <label for="newsletter">Subsribe to Newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+
+        <label>Preferred Contact Method:</label>
+        <input type="radio" id="email" name="contact methos" value="email">
+        <label for="email">Email</label>
+        <input type="radio" id="phone" name="contact method" value="phone">
+        <label for="phone">Phone</label>
+
+      <label for="comments">Addtional Comments:</label>
+      <textarea id="comments" name="comments" rows="4" cols="50" placeholder="share your thoughts"></textarea>
+
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+
+ 
+
+
+</body>
+</html>
